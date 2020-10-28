@@ -1,0 +1,26 @@
+{
+  "name": "node_express_server_10_27",
+  "version": "1.0.0",
+  "descriptionyarn add eslint --dev": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect --exec babel-node src/index.js",
+    "build": "babel src/index.js -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "2.1.2"
+  }
+}
