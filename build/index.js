@@ -8,12 +8,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 var app = (0, _express["default"])();
 var PORT = 5000;
 app.get('/', home);
-app.post('/info', info);
+app.get('/info', info);
 app.use(apiNotFound);
 
 function home(req, res) {
   res.status(200).json({
-    name: 'PASV',
+    name: 'Vadim dyrak',
     age: 5
   });
 }
