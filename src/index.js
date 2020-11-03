@@ -1,11 +1,10 @@
 // eslint-disable-next-line no-undef
 import express from 'express';
-import home from './home';
-import info from './info';
-import errorHandler from './errorHandler';
-import logger from './logger';
-import parseResponse from './bodyParser';
-import cors from './cors';
+import errorHandler from './modules/core/errorHandler';
+import logger from './modules/core/logger';
+import parseResponse from './modules/core/bodyParser';
+import cors from './modules/core/cors';
+import routes from './modules/core/routes';
 
 const app = express();
 const PORT = 5000;
@@ -13,8 +12,9 @@ const PORT = 5000;
 logger(app);
 parseResponse(app);
 cors(app);
-app.get('/', home);
-app.post('/info', info);
+routes(app);
+// app.get('/', home);
+// app.post('/info', info);
 errorHandler(app);
 
 app.listen(PORT, () => {
