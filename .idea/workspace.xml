@@ -20,16 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145ac0f4-ddff-4305-a96c-731a8cf00221" name="Default Changelist" comment="new version">
-      <change afterPath="$PROJECT_DIR$/src/modules/core/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/info/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/core/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bodyParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/bodyParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/cors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/errorHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/errorHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/info/info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/logger.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
       <recent name="D:\React\node_express_server_10_27\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Attach to Node.js/Chrome.Debug">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Debug" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
       <method v="2" />
     </configuration>
@@ -208,21 +203,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1088" y="209" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603929536959" />
-    <state width="806" height="325" key="GridCell.Tab.0.bottom" timestamp="1604305967772">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1240" height="214" key="GridCell.Tab.0.bottom" timestamp="1604385363760">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1240" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604385363760" />
     <state width="806" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604305967772" />
-    <state width="806" height="325" key="GridCell.Tab.0.center" timestamp="1604305967772">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1240" height="214" key="GridCell.Tab.0.center" timestamp="1604385363759">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1240" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604385363759" />
     <state width="806" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604305967772" />
-    <state width="806" height="325" key="GridCell.Tab.0.left" timestamp="1604305967772">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1240" height="214" key="GridCell.Tab.0.left" timestamp="1604385363759">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1240" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604385363759" />
     <state width="806" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604305967772" />
-    <state width="806" height="325" key="GridCell.Tab.0.right" timestamp="1604305967772">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1240" height="214" key="GridCell.Tab.0.right" timestamp="1604385363759">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1240" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604385363759" />
     <state width="806" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604305967772" />
     <state width="806" height="325" key="GridCell.Tab.1.bottom" timestamp="1604305967773">
       <screen x="0" y="0" width="1920" height="1040" />
