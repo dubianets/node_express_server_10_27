@@ -13,6 +13,6 @@ export default function userUpdateById(req, res) {
     })
     .catch((err) => {
       console.log(err);
-      res.status(400).json('User get all error');
+      res.status(400).json('User update error');
     });
 }
