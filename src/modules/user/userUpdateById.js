@@ -5,7 +5,6 @@ export default function userUpdateById(req, res) {
 
   delete req.body.password;
 
-  //User.findByIdAndUpdate(userId, req.body)
   User.updateOne({ _id: userId }, req.body)
     .exec()
     .then((result) => {
