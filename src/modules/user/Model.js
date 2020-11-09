@@ -16,7 +16,14 @@ const userSchema = new Schema({
     required: true,
     select: false,
   },
-  name: String,
+  description: {
+    type: String,
+    required: true,
+  },
+  name: {
+    type: String,
+    required: true,
+  }
 });
 
 userSchema.index({ email: 1 }, { unique: true });
