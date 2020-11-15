@@ -9,6 +9,11 @@ const Schema = mongoose.Schema(
             default: 0,
         },
 
+        docNumber: {
+            type: String,
+            default: '000001',
+        },
+
         model: {
             type: String,
         },
