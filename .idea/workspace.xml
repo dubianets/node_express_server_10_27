@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="145ac0f4-ddff-4305-a96c-731a8cf00221" name="Default Changelist" comment="new version add name shema" />
+    <list default="true" id="145ac0f4-ddff-4305-a96c-731a8cf00221" name="Default Changelist" comment="new version add name shema">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +67,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React-project-2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -148,6 +150,8 @@
       <workItem from="1604267761358" duration="9979000" />
       <workItem from="1604906162323" duration="129000" />
       <workItem from="1605079913728" duration="327000" />
+      <workItem from="1605424247392" duration="237000" />
+      <workItem from="1605571879177" duration="154000" />
     </task>
     <task id="LOCAL-00001" summary="new version">
       <created>1603950618322</created>
@@ -191,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605080213798</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new version add name shema">
+      <created>1605424455373</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605424455373</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,9 +242,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1058" y="346" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603913824526" />
-    <state x="1406" y="347" key="FileChooserDialogImpl" timestamp="1604274279409">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1098" y="275" key="FileChooserDialogImpl" timestamp="1605572030494">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="1098" y="275" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605572030494" />
     <state x="1406" y="347" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604274279409" />
     <state x="1099" y="408" key="Github.ShareDialog" timestamp="1603929498201">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -315,10 +327,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="870" y="101" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603922801962" />
-    <state x="691" y="204" key="Vcs.Push.Dialog.v2" timestamp="1605080230202">
+    <state x="691" y="204" key="Vcs.Push.Dialog.v2" timestamp="1605424466105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="691" y="204" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605080230202" />
+    <state x="691" y="204" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605424466105" />
     <state x="864" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604280262567" />
     <state x="1197" y="243" key="run.anything.popup" timestamp="1603919205598">
       <screen x="0" y="0" width="1920" height="1040" />
