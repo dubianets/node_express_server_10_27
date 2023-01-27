@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
+  _id: mongoose.Schema.Types.ObjectId,
   email:{
     type: String,
     required: true,
@@ -15,23 +16,13 @@ const userSchema = new Schema({
     type: String,
     required: true,
     select: false,
+   // match: /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/
   },
-  description: {
-    type: String,
-    required: true,
-  },
-  name: {
-    type: String,
-    required: true,
-  },
-  price: {
-    type: Number,
-    required: true,
-  },
-  cost: {
-    type: Number,
-    required: true,
-  }
+  history: [
+    {
+      date: Date,
+    },
+  ],
 });
 
 userSchema.index({ email: 1 }, { unique: true });

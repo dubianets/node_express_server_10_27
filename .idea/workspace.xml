@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,7 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145ac0f4-ddff-4305-a96c-731a8cf00221" name="Default Changelist" comment="new version add name shema">
+      <change afterPath="$PROJECT_DIR$/src/modules/user/userLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/utils/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/node_express_server_10_27.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KingCountySerever(node_express_server_10_27).iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/core/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/info/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/info/info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/userGetById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/userGetById.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/userRegister.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/userRegister.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,24 +56,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/modules/user/userDeleteById.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/user/userRegister.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/user/userGetAll.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/user/userGetById.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/core/counterCreate.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/core/errorHandler.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/core/logger.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/core/cors.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/core/routes.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/core/db.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/modules/core/bodyParser.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/info/info.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/info/Routes.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/modules/user/userDeleteAll.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/core/cors.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/core/counterCreate.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/core/db.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/core/errorHandler.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/core/logger.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/core/routes.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/modules/home/home.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/info/Routes.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/info/info.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/modules/user/Model.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/modules/user/Routes.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/user/userDeleteAll.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/user/userDeleteById.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/user/userGetAll.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/user/userGetById.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/modules/user/userRegister.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/modules/user/userUpdateById.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -67,22 +85,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="D:\React\node_express_server_10_27\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
-    <property name="ts.external.directory.path" value="C:\Users\knuckles_test5\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\202.6948.73\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/React stude/cbServer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\React stude\\node_express_server_10_27\\node_modules\\prettier",
+    "ts.external.directory.path": "C:\\Users\\knuckles_test5\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\223.8214.51\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="es6.move.members.recent.items">
       <recent name="D:\React\node_express_server_10_27\src\info.js" />
@@ -160,6 +178,10 @@
       <workItem from="1613617976018" duration="601000" />
       <workItem from="1613712484620" duration="688000" />
       <workItem from="1647574319798" duration="2508000" />
+      <workItem from="1647625257919" duration="114000" />
+      <workItem from="1674014849284" duration="2849000" />
+      <workItem from="1674017977477" duration="238000" />
+      <workItem from="1674685646091" duration="13763000" />
     </task>
     <task id="LOCAL-00001" summary="new version">
       <created>1603950618322</created>
@@ -224,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613443404141</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new version add name shema">
+      <created>1647625356599</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647625356599</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
