@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 function dbConnect (){
-  mongoose.connect('mongodb://127.0.0.1', {
+  mongoose.connect('mongodb://127.0.0.1/king_county_movers', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,

@@ -12,17 +12,36 @@ const userSchema = new Schema({
     index: true,
     unique: true,
   },
+  emailConfirmation: {
+    hash: { type: String, select: false },
+    confirmed: {
+      type: Boolean,
+      default: false,
+    },
+  },
   password: {
     type: String,
     required: true,
     select: false,
    // match: /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/
   },
-  history: [
-    {
-      date: Date,
+  resetPassword: {
+    hash: { type: String, select: false },
+    date: {
+      select: false,
+      type: Date,
+      required: false,
     },
-  ],
+    history: [
+      {
+        date: Date,
+      },
+    ],
+  },
+  active: {
+    type: Boolean,
+    default: true,
+}
 });
 
 userSchema.index({ email: 1 }, { unique: true });

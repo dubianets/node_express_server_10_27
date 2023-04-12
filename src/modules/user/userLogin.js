@@ -5,12 +5,12 @@ import message from '../utils/messages';
 import jwt from 'jsonwebtoken';
 
 export default function userLogin(req, res) {
-  var email = get(req, 'body.email', '').trim().toLowerCase();
+  const email = get(req, 'body.email', '').trim().toLowerCase();
 
   User.findOne({ email: email })
     .select('+password')
     .exec()
-    .then((user) => {
+    .then(async (user) => {
       if (user) {
         bcrypt.compare(req.body.password, user.password, async (err, result) => {
           if (err) {
@@ -27,13 +27,13 @@ export default function userLogin(req, res) {
                 email: user.email,
                 userId: user._id,
               },
-              process.env.JWT_KEY,
+              `${process.env.JWT_SECRET_KEY}`,
               {
-                expiresIn: process.env.JWT_EXPIRES_IN,
+                expiresIn: '90d',
               },
             );
 
-            // user.password = null;
+            user.password = null;
 
             return res.status(200).json({
               message: 'Auth success',
@@ -50,7 +50,11 @@ export default function userLogin(req, res) {
           }
         });
       } else {
-        res.status(401).json(message.fail('Auth failed 3'));
+        const analyticsId = {
+          email,
+          reason: 'User not found',
+        };
+        res.status(401).json(message.fail('Auth failed 3', analyticsId));
       }
     })
     .catch((err) => {
