@@ -17,10 +17,11 @@ export default async function sendMailCarHaulingEstimate({
   //const host = process.env.CLIENT_HOST;
   const subject = 'King County Movers Car Hauling service Estimate';
   const message = {
-    html: `Hi dear ${name}<br/>
+    html: `<p><h3>${subject}</h3>
+          Hi dear ${name}<br/>
           Thank you for your request<br/>
-          King County Movers team always glad to help you with any questions
-          <br/><br/>
+          King County Movers team always glad to help you with any questions</p>
+          <br/>
           <h3>Here is your estimate</h3>
           Name: ${name},<br/>
           Phone number: ${phone}<br/>
@@ -45,8 +46,9 @@ export default async function sendMailCarHaulingEstimate({
           Or respond on this message<br/>
           <br/>
           Thanks,<br/>
-          Your friends at King County Movers`,
-    text: `Hi dear ${name}\nThank you for your request\n
+          Your friends at King County Movers<br/>
+          <img src = 'https://gcdnb.pbrd.co/images/cQTLfSIuqvga.jpg?o=1' alt = 'LOGO'/>`,
+    text: `${subject}\nHi dear ${name}\nThank you for your request\n
     \nKing County Movers team always glad to help you with any questions\n
     \nHere is your estimate\n
     \nName: ${name}\n

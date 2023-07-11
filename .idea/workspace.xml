@@ -23,47 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145ac0f4-ddff-4305-a96c-731a8cf00221" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/info/carHaulingQuote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/info/contactForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/info/loadingQuote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/info/localQuote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/info/longDistanceQuote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/info/packingQuote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/info/storageQuote.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/modules/mail/gmailSES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/mail/sendMailCarHaulingEstimate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/mail/sendMailCreateUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/mail/sendMailLoadingEstimate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/mail/sendMailLocalEstimate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/mail/sendMailLongDistanceEstimate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/mail/sendMailPackingEstimate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/mail/sendMailStorageEstimate.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/modules/mail/sesClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/user/mailConfirm/userControllerEmailConfirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/utils/checkPassword.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cards/Model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cards/Routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cards/cardDeleteById.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cards/cardGetById.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cards/cardUpdateById.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cards/cardsCreate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cards/cardsDeleteAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cards/cardsGetAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/core/create.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/core/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/core/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/home/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/info/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/info/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/info/info.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/user/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/Model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/user/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/user/userLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/userLogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/user/userRegister.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/userRegister.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/info/longDistanceQuote.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/info/longDistanceQuote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailCarHaulingEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailCarHaulingEstimate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailLoadingEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailLoadingEstimate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailLocalEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailLocalEstimate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailLongDistanceEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailLongDistanceEstimate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailPackingEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailPackingEstimate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailStorageEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailStorageEstimate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,33 +79,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/React stude/king-county-movers",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\React stude\\node_express_server_10_27\\node_modules\\prettier",
-    "ts.external.directory.path": "C:\\Users\\knuckles_test5\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\223.8214.51\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/React stude/king_county_movers_server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\React stude\\node_express_server_10_27\\node_modules\\prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\knuckles_test5\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\223.8214.51\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="es6.move.members.recent.items">
       <recent name="D:\React\node_express_server_10_27\src\info.js" />
       <recent name="D:\React\node_express_server_10_27\src\home.js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\React stude\king_county_movers_server\src\modules\images" />
       <recent name="D:\React\node_express_server_10_27\src\modules\info" />
       <recent name="D:\React\node_express_server_10_27\src\modules\home" />
       <recent name="D:\React\node_express_server_10_27\src\modules\core" />
       <recent name="D:\React\node_express_server_10_27\src\modules" />
-      <recent name="D:\React\node_express_server_10_27\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -224,7 +193,12 @@
       <workItem from="1677267496261" duration="1397000" />
       <workItem from="1678128027211" duration="638000" />
       <workItem from="1681144537621" duration="20364000" />
-      <workItem from="1681318082042" duration="3022000" />
+      <workItem from="1681318082042" duration="3773000" />
+      <workItem from="1684893395459" duration="7282000" />
+      <workItem from="1684950792896" duration="2336000" />
+      <workItem from="1685904388735" duration="657000" />
+      <workItem from="1686083427211" duration="1503000" />
+      <workItem from="1689101472098" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="new version">
       <created>1603950618322</created>
@@ -303,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674780169476</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Info route">
+      <created>1681323569138</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681323569138</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +305,7 @@
     <MESSAGE value="new version" />
     <MESSAGE value="new version add name shema" />
     <MESSAGE value="Login add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login add" />
+    <MESSAGE value="Info route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Info route" />
   </component>
 </project>

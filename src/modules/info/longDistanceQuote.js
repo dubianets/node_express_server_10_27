@@ -11,7 +11,7 @@ export default async function LongDistanceQuote(req, res) {
   const distance = get(req, 'body.distance', '');
   let size = get(req, 'body.size', '');
   const date = get(req, 'body.date', '');
-  let deliveryRate = 2.5;
+  let deliveryRate = 3;
   if (email.includes(' ')) {
     return res.secure(400).json(message.fail('Wrong Email Format'));
   }
@@ -19,7 +19,7 @@ export default async function LongDistanceQuote(req, res) {
   const newDistance = +distance.replace(/[a-zA-Z, ]/g, '');
 
   if (size > 3) {
-    deliveryRate = 3.5;
+    deliveryRate = 4;
   }
 
   let estimateDelivery = +(newDistance * deliveryRate).toFixed();
