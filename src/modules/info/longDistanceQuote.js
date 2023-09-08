@@ -26,6 +26,18 @@ export default async function LongDistanceQuote(req, res) {
   let estimateGas = +(estimateDelivery * 0.09).toFixed();
   let estimateTotal = estimateDelivery + estimateGas;
 
+  const moveSize = [
+    '0',
+    'Some items',
+    'Studio',
+    '1 Bedroom Small',
+    '1 Bedroom Large',
+    '2 Bedroom',
+    '3 Bedroom',
+    '4 Bedroom and more',
+  ];
+  size = moveSize[size];
+
   const createdEstimate = await sendMailLongDistanceEstimate({
     email,
     name,
@@ -34,6 +46,7 @@ export default async function LongDistanceQuote(req, res) {
     delivery,
     distance,
     date,
+    size,
     estimateGas,
     estimateDelivery,
     estimateTotal,

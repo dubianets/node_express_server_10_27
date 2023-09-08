@@ -37,6 +37,18 @@ export default async function LoadingQuote(req, res) {
 
   let estimateTotal = estimateTime + estimateGas;
 
+  const moveSize = [
+    '0',
+    'Some items',
+    'Studio',
+    '1 Bedroom Small',
+    '1 Bedroom Large',
+    '2 Bedroom',
+    '3 Bedroom',
+    '4 Bedroom and more',
+  ];
+  size = moveSize[size];
+
   const createdEstimate = await sendMailLoadingEstimate({
     email,
     name,
@@ -44,6 +56,7 @@ export default async function LoadingQuote(req, res) {
     pickUp,
     distance,
     date,
+    size,
     estimateGas,
     estimateTime,
     estimateTotal,

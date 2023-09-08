@@ -25,7 +25,18 @@
     <list default="true" id="145ac0f4-ddff-4305-a96c-731a8cf00221" name="Default Changelist" comment="Info route">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/info/loadingQuote.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/info/loadingQuote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/info/localQuote.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/info/localQuote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/info/longDistanceQuote.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/info/longDistanceQuote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/info/packingQuote.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/info/packingQuote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/info/storageQuote.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/info/storageQuote.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/mail/gmailSES.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/gmailSES.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailCarHaulingEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailCarHaulingEstimate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailLoadingEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailLoadingEstimate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailLocalEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailLocalEstimate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailLongDistanceEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailLongDistanceEstimate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailPackingEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailPackingEstimate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mail/sendMailStorageEstimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mail/sendMailStorageEstimate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +88,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/React stude/king_county_movers_server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/React stude/king-county-movers&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -191,7 +202,9 @@
       <workItem from="1684950792896" duration="2336000" />
       <workItem from="1685904388735" duration="657000" />
       <workItem from="1686083427211" duration="1503000" />
-      <workItem from="1689101472098" duration="1205000" />
+      <workItem from="1689101472098" duration="1850000" />
+      <workItem from="1689184207248" duration="12168000" />
+      <workItem from="1689627677212" duration="941000" />
     </task>
     <task id="LOCAL-00001" summary="new version">
       <created>1603950618322</created>
@@ -284,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689107772872</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Info route">
+      <created>1689108312195</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689108312195</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

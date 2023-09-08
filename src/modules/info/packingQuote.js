@@ -40,6 +40,17 @@ export default async function PackingQuote(req, res) {
   let estimateTime = +(size * 100).toFixed();
 
   let estimateTotal = estimateTime + estimateGas;
+  const moveSize = [
+    '0',
+    'Some items',
+    'Studio',
+    '1 Bedroom Small',
+    '1 Bedroom Large',
+    '2 Bedroom',
+    '3 Bedroom',
+    '4 Bedroom and more',
+  ];
+  size = moveSize[size];
 
   const createdEstimate = await sendMailPackingEstimate({
     email,
@@ -48,6 +59,7 @@ export default async function PackingQuote(req, res) {
     pickUp,
     distance,
     date,
+    size,
     estimateGas,
     estimateTime,
     estimateTotal,

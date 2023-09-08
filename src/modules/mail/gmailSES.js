@@ -3,10 +3,12 @@ import message from '../utils/messages';
 const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
 
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
+const CLIENT_ID =
+  '20982571951-m2h4sf8h9gpoll0lfg396t6j9obn1i0h.apps.googleusercontent.com';
+const CLIENT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = process.env.REFRESH_TOKEN;
+const REFRESH_TOKEN =
+  '1//04VhXYFJC2rJQCgYIARAAGAQSNwF-L9IrRS9MRafOAQdLakYuVJpbbX-nqH2NvuzP2o7XST2vxRoi7Cp2DmbDROhtUOnm2Xeioxg';
 const oAuth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 

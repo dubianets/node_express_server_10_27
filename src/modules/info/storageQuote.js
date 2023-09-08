@@ -8,7 +8,7 @@ export default async function StorageQuote(req, res) {
   const phone = get(req, 'body.phone', '');
   const pickUp_date = get(req, 'body.pickUpDate', '');
   const delivery_date = get(req, 'body.deliveryDate', '');
-  const size = get(req, 'body.size', '');
+  let size = get(req, 'body.size', '');
   const numberOfMonth = get(req, 'body.numberOfMonth', '');
 
   if (email.includes(' ')) {
@@ -39,12 +39,25 @@ export default async function StorageQuote(req, res) {
     estimatePrice = 300 * 2 * +numberOfMonth;
   }
 
+  const moveSize = [
+    '0',
+    'Some items',
+    'Studio',
+    '1 Bedroom Small',
+    '1 Bedroom Large',
+    '2 Bedroom',
+    '3 Bedroom',
+    '4 Bedroom and more',
+  ];
+  size = moveSize[size];
+
   const createdEstimate = await sendMailStorageEstimate({
     email,
     name,
     phone,
     pickUp_date,
     delivery_date,
+    size,
     estimatePrice,
     numberOfMonth,
   })
